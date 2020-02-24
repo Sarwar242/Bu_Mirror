@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect("localhost","root","","bu_mirror") or die("Connection Error");
+$con=mysqli_connect("localhost","root","","project") or die("Connection Error");
 
 if (isset($_GET['post_id'])) {
 	$post_id=$_GET['post_id'];
